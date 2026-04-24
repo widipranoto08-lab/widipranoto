@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Siswa</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- LOADER -->
+<div id="loader">
+  <div class="loader-text">Loading...</div>
+</div>
+
+<!-- CURSOR -->
+<div class="cursor"></div>
+
+<!-- PAGE WRAPPER -->
+<div id="page">
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="container">
+    <div class="logo">Profil.</div>
+    <div class="menu">
+      <a href="#about">Tentang</a>
+      <a href="#prestasi">Prestasi</a>
+      <a href="#kegiatan">Kegiatan</a>
+      <a href="#kontak">Kontak</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="bg-orb orb1"></div>
+  <div class="bg-orb orb2"></div>
+
+  <div class="container hero-grid">
+    <div class="hero-text fade">
+      <h1>Halo, Saya <span>Nama Adekmu</span></h1>
+      <p>Siswa Berprestasi • Aktif • Visioner</p>
+
+      <div class="btn-group">
+        <button onclick="scrollToSection('prestasi')">Lihat Prestasi</button>
+        <button class="outline" onclick="scrollToSection('about')">Tentang Saya</button>
+      </div>
+    </div>
+
+    <div class="hero-img fade">
+      <img src="https://via.placeholder.com/300">
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section fade">
+  <div class="container">
+    <h2>Tentang Saya</h2>
+    <p>Siswa aktif, disiplin, dan siap berkembang ke jenjang berikutnya.</p>
+  </div>
+</section>
+
+<!-- PRESTASI -->
+<section id="prestasi" class="section dark fade">
+  <div class="container">
+    <h2>Prestasi</h2>
+
+    <div class="card-container">
+      <div class="card">🏆 Juara 1 Matematika</div>
+      <div class="card">🥈 Olimpiade IPA</div>
+      <div class="card">🎖 Sertifikat Web</div>
+    </div>
+  </div>
+</section>
+
+<!-- KEGIATAN -->
+<section id="kegiatan" class="section fade">
+  <div class="container">
+    <h2>Kegiatan</h2>
+
+    <div class="card-container">
+      <div class="card">OSIS</div>
+      <div class="card">Pramuka</div>
+      <div class="card">Ketua Kelas</div>
+      <div class="card">Panitia Event</div>
+    </div>
+  </div>
+</section>
+
+<!-- KONTAK -->
+<section id="kontak" class="section center fade">
+  <div class="container">
+    <h2>Kontak</h2>
+    <p>Email: contoh@email.com</p>
+    <p>WA: 08xxxxxxxxxx</p>
+  </div>
+</section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
